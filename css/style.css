@@ -1,0 +1,368 @@
+html {
+    color-scheme: dark;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    /* background-color: black; */
+    background-image: url(../image/Background\ Pattern.webp);
+    background-size: cover;
+    /* height: 100vh; */
+  }
+  .container {
+    max-width: 90rem;
+  
+    margin: auto;
+  }
+  
+  .top_panel {
+    margin: 2.25rem 8rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top_panel a {
+    background-image: linear-gradient(to top, #0e2b77, #4776f3);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: "Bruno Ace", sans-serif;
+  }
+  .right_button {
+    display: flex;
+    gap: 1rem;
+  }
+  .top_right button {
+    padding: 0.5rem;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: navajowhite;
+    cursor: pointer;
+  }
+  
+  #bg_btn {
+    background: none;
+    border: 1px solid white;
+    color: white;
+  }
+  .profile_panel {
+    margin: 8rem 0;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .profile_pic {
+    border: 1px solid brown;
+    padding: 15rem;
+    background-color: aliceblue;
+    background-image: url(../image/21004063-[Converted].webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+  }
+  
+  .profile_text {
+    max-width: 55%;
+    display: flex;
+    gap: 0.25rem;
+    flex-direction: column;
+  }
+  .profile_text h1 {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 1.5rem;
+  }
+  .profile_text p {
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.8;
+    /* padding: 0 5rem; */
+  }
+  .profile_button {
+    margin: 2rem 0;
+    display: flex;
+    gap: 1.5rem;
+  }
+  .profile_button a {
+    text-decoration: none;
+    color: white;
+  }
+  .profile_button button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    background-color: blue;
+    background-image: linear-gradient(to top, #0e2b77, #1e419a, #4776f3);
+    border: none;
+    cursor: pointer;
+  }
+  
+  #cv_btn {
+    border: 0.1rem solid #0e2b77;
+    background: none;
+  }
+  .about_panel {
+    margin: 8rem 0;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  h2 {
+    font-size: 2.7rem;
+    text-align: center;
+  }
+  .skill_panel {
+    text-align: center;
+    margin: 8rem 0rem;
+  }
+  .software_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 2rem 10rem;
+  }
+  .software {
+    padding: 2rem 0;
+    font-size: 1rem;
+  }
+  .software img {
+    width: 20%;
+  }
+  .project_panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem 5rem;
+    gap: 1.5rem;
+    /* border: 2px solid white; */
+  }
+  .project_panel a {
+    text-decoration: none;
+  }
+  .project {
+    border: 1px solid gray;
+    border-radius: 1rem;
+    max-width: 25rem;
+    padding: 1rem;
+    transition-duration: 100ms;
+    background-color: white;
+    color: black;
+  }
+  .project_image {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px rgb(53, 53, 53);
+  }
+  
+  .project_image img {
+    height: 100%;
+  }
+  
+  .project_name {
+    padding: 0.5rem 0.5rem;
+    /* color: black; */
+  }
+  .project_name h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .project:hover {
+    box-shadow: 0px 0px 10px 3px rgb(183, 183, 183);
+    border: transparent;
+  }
+  
+  .footer_bg {
+    background-color: white;
+    padding: 2rem 0;
+    margin-top: 8rem;
+  }
+  
+  .details {
+    padding: 0 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .details a {
+    background-image: linear-gradient(to top, #0e2b77, #4776f3);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: "Bruno Ace", sans-serif;
+  }
+  .details p {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .mail {
+    padding: 1rem 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.15rem;
+  }
+  .mail a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 1190px) {
+    .container {
+      max-width: 100%;
+    }
+    .top_panel {
+      margin: 2rem;
+      padding: 0.5rem 0;
+    }
+    .profile_panel {
+      margin: 0;
+      flex-direction: column;
+    }
+    .profile_text {
+      align-items: center;
+      max-width: 90%;
+    }
+  
+    .profile_text p {
+      text-align: center;
+      padding: 0 3rem;
+    }
+    .about_panel {
+      padding: 0 5rem;
+    }
+    .software_list {
+      padding: 2rem 5rem;
+    }
+    .project_panel {
+      padding: 3rem 2.5rem;
+    }
+    .details {
+      padding: 2rem 0;
+    }
+    .details p {
+      padding: 0 5rem;
+    }
+  }
+  @media (max-width: 960px) {
+    .container {
+      max-width: 100%;
+    }
+    .top_panel {
+      margin: 2rem;
+    }
+    .profile_panel {
+      margin: 0;
+      flex-direction: column;
+      max-width: 100%;
+    }
+    .profile_text p {
+      text-align: center;
+    }
+    .project_panel {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      max-width: 100%;
+    }
+    .top_right {
+      display: none;
+    }
+    .profile_panel {
+      margin: 0;
+      flex-direction: column;
+      max-width: 100%;
+    }
+    .profile_text p {
+      text-align: center;
+    }
+    .profile_text h1 {
+      font-size: 2.5rem;
+      text-align: center;
+    }
+    .software_list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .skill {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+                      
+  @media (max-width: 540px) {
+    .container {
+      max-width: 100%;
+    }
+    .profile_panel {
+      margin: 0;
+      flex-direction: column;
+      max-width: 100%;
+      gap: 1rem;
+    }
+    .profile_pic {
+      padding: 8rem;
+    }
+    .profile_text p {
+      text-align:  center;
+      padding: 0;
+    }
+    .profile_text h1 {
+      font-size: 2rem;
+    }
+    .about_panel {
+      padding: 0 2rem;
+     
+    }
+    .software_list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 2rem 0rem;
+    }
+    .project_panel {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: auto;
+      text-align: center;
+      place-items: center;
+    }
+    .details{
+      padding: 0;
+      text-align: center; 
+      
+    }
+    .details p{
+      /* text-align: center; */
+      padding: 0;
+    }
+    .mail{
+      flex-direction: column;
+    }
+  }
+  
